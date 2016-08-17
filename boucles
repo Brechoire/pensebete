@@ -1,0 +1,6 @@
+$array1 = [1, 2, 3];
+            $array2 = ['un', 'deux', 'trois'];
+            foreach ($array1 as $key => $value) {
+                $valueInOtherArray = $array2[$key];
+                echo $valueInOtherArray;
+            }
